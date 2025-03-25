@@ -8,7 +8,7 @@ defmodule Glasgow.Loki.Client do
   @doc """
     Check if Loki server ready.
   """
-  @spec ready(String.t()) :: {:ok, non_neg_integer()} | :error
+  @spec ready(String.t()) :: {:ok, non_neg_integer()} | {:error, non_neg_integer(), term()}
   def ready(base_url) do
     Req.new(method: :get, base_url: base_url, url: @api_ready_path)
     |> Req.get()
