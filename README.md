@@ -1,6 +1,6 @@
 # Glasgow [![Hex Version](https://img.shields.io/hexpm/v/glasgow.svg)](https://hex.pm/packages/glasgow) [![Hex Docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/glasgow/)
 
-An Elixir logger backend for sending logs to [`Grafana Loki`](https://github.com/grafana/loki).
+An Elixir logger handler for sending logs to [`Grafana Loki`](https://github.com/grafana/loki).
 
 ## Installation
 
@@ -9,7 +9,7 @@ The package can be installed by adding `glasgow` to your list of dependencies in
 ```elixir
 def deps do
   [
-    {:glasgow, "~> 0.1.0"}
+    {:glasgow, "~> 0.1.2"}
   ]
 end
 ```

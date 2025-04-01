@@ -1,6 +1,6 @@
 defmodule Glasgow do
   @moduledoc """
-  An Elixir logger backend for sending logs to [`Grafana Loki`](https://github.com/grafana/loki).
+  An Elixir logger handler for sending logs to [`Grafana Loki`](https://github.com/grafana/loki).
 
   ## Installation
 
@@ -9,7 +9,7 @@ defmodule Glasgow do
   ```elixir
   def deps do
   [
-    {:glasgow, "~> 0.1.0"}
+    {:glasgow, "~> 0.1.2"}
   ]
   end
   ```
