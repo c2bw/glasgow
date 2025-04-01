@@ -13,7 +13,7 @@ defmodule Glasgow.Configuration do
         }
 
   @doc """
-  Validates the user configuration for the Glasgow backend.
+  Validates the user configuration for the Glasgow handler.
 
   Set defaults for missing keys.
   """
