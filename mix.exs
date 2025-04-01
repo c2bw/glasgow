@@ -1,7 +1,7 @@
 defmodule Glasgow.MixProject do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
   @url "https://github.com/c2bw/glasgow"
 
   def project do
@@ -13,7 +13,7 @@ defmodule Glasgow.MixProject do
       deps: deps(),
       package: package(),
       docs: docs(),
-      description: "Elixir Logger backend for Grafana Loki",
+      description: "Elixir Logger handler for Grafana Loki",
       test_coverage: [ignore_modules: [~r/Logproto\./, ~r/Stats\./, Google.Protobuf.Timestamp]]
     ]
   end
